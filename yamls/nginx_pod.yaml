@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-pod
+  namespace: default
+  labels:
+    app: nginx
+    leozone: 37.7749_-122.4194
+spec:
+  schedulerName: krios-scheduler
+  containers:
+  - name: nginx
+    image: nginx
+    ports:
+    - containerPort: 80
+    imagePullPolicy: IfNotPresent

@@ -1,0 +1,7 @@
+sgp4
+ephem
+kubernetes
+matplotlib
+tcconfig
+ping3
+pycurl

@@ -1,0 +1,3 @@
+[submodule "krios-emulator"]
+	path = krios-emulator
+	url = https://github.com/GTkernel/krios-emulator
